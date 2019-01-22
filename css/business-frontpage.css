@@ -1,0 +1,695 @@
+﻿/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+/* 嵌入字型設定 */
+@font-face {
+    font-family: "瀨戶字體";
+    src: url(../image/setofont.ttf);
+}
+
+
+body {
+
+	position: relative;
+	background: #f4eade;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	background-size: auto;
+	-o-background-size: auto;
+	font-family: "瀨戶字體";
+	font-size: 22px;
+
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+.sun {
+	bottom:25px;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	background:url('../image/sun.gif');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 background-repeat:no-repeat;
+
+
+}
+
+.sun1 {
+
+
+	background:url('../image/moon.png');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 background-repeat:no-repeat;
+
+}
+
+.sun22 {
+
+
+	background:url('../image/sun.gif');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 background-repeat:no-repeat;
+}
+
+#sun2{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background:url('../image/sun.gif');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 background-repeat:no-repeat;
+}
+
+.box {
+           width: 100%;
+           height: 100vh;
+           position:relative,relative,relative;
+           background-size: cover,cover,cover;
+           background-attachment: fixed,fixed,fixed;
+	   	   background-repeat:no-repeat,no-repeat,no-repeat;
+           background-image: url('../image/pig1.png'),url('../image/grass1.png'),url('../image/sky1.gif');
+       }
+
+
+#box1 {
+           z-index: -997;
+			position: absolute;
+       }
+
+#box2 {
+           z-index: -996;
+           position: absolute;
+           left: 0;
+           top:0;
+
+       }
+
+#sky1 {
+           z-index: -998;
+			position: absolute;
+		   left: 0;
+           top:0;
+       }
+
+#sky2 {
+           z-index: -999;
+           position: absolute;
+           left: 0;
+           top:0;
+
+       }
+
+#pig1 {
+           z-index: -994;
+           position: absolute;
+			left: 0;
+           top:0;
+
+       }
+
+#pig2 {
+           z-index: -995;
+           position: absolute;
+			left: 0;
+           top:0;
+
+       }
+
+.box2 {
+           width: 100%;
+           height: 100vh;
+			position: absolute;
+           background-size: cover;
+           background-attachment: scroll;
+	   	   background-repeat:no-repeat;
+           background-image: url('../image/wood1.png');
+
+
+       }
+
+
+#wood1 {
+           z-index: -992;
+           position: absolute;
+			left: 0;
+            top:0;
+
+       }
+
+#wood2 {
+           z-index: -993;
+           position: absolute;
+			left: 0;
+            top:0;
+
+       }
+
+
+#top-icon3 .dropdown-menu{
+	padding-right: 5px;
+	padding-left: 5px;
+
+}
+
+.navbar-toggler{
+	border-style: none;
+}
+
+.business-header {
+	height: 100vh;
+	min-height: 300px;
+}
+
+.nav-item{
+
+	padding:10px;
+
+}
+
+.row {
+  margin-right: auto;
+}
+
+
+
+.carousel-item .rounded {
+	display:block;
+	margin:auto;
+	height: auto;
+
+
+}
+
+
+.card-header{
+	background: url('../image/muto.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	border-bottom-style: none;
+	border-radius: 5px 5px 5px 5px;
+	padding: 40px;
+	text-align: center;
+	font-size: 40px;
+	color: #ffffff;
+	position: relative;
+
+}
+
+.navbar-collapse{
+	margin-bottom: 8px;
+}
+
+/*廣告*/
+#ad{
+	background:#B7A392;
+}
+#carousel1 {
+	display: table;
+    margin: 0 auto;
+}
+#carousel1 img{
+	width:800px;
+	height:350px;
+}
+
+#carousel2 {
+	display: table;
+    margin: 0 auto;
+}
+#carousel2 img{
+	width:800px;
+	height:350px;
+}
+
+
+/*back to top*/
+#top a:hover{
+	opacity:0.7;
+
+}
+
+
+/*首頁-推薦食譜*/
+
+.card{
+	background:none;
+	border-style:none;
+
+}
+.card  .card-1 {
+    background: url('../image/papper-5.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+.card  .card-2 {
+    background: url('../image/papper-2.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+}
+
+.card  .card-3 {
+    background: url('../image/papper-1.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+.card  .card-4 {
+    background: url('../image/papper-3.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+.card  .card-5 {
+    background: url('../image/papper-4.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+.card  .card-8 {
+    background: url('../image/bgbg.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+
+.card-img-top{
+	border-style:solid;
+	border-color:#ffffff;
+	border-width:thick;
+	border-radius: 10px 10px 10px 10px;
+	width: auto;
+	height: auto;
+	max-width: 65%;
+	max-height: 65%;
+	display:block;
+	margin:auto;
+	margin-top:100px;
+
+}
+.card-img2{
+	border-style:solid;
+	border-color:#ffffff;
+	border-width:thick;
+	border-radius: 10px 10px 10px 10px;
+	width: auto;
+	height: auto;
+	max-width: 80%;
+	max-height: 80%;
+
+
+}
+
+.card-title{
+
+	text-align: center;
+	font-weight:bold;
+}
+
+.card-text{
+	margin-left:50px;
+	margin-right:50px;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.card-text2{
+	margin-left:50px;
+	margin-right:50px;
+
+}
+
+.card-footer{
+	background:none;
+	border-style:none;
+	margin-bottom: 50px;
+
+}
+
+
+
+.more{
+	padding-bottom:20px;
+	padding-right:20px;
+}
+
+.more a.btn{
+	background: #ffffff;
+	color: #77685c;
+	border-style:none;
+}
+
+.card-body2{
+	background:url(../image/bg-b.jpg) center center no-repeat scroll;
+	color: #8E7974;
+	font-size:20px;
+
+}
+.card-body2 a{
+	color:#8E7974;
+
+}
+
+
+/*食譜分享*/
+
+
+#recipe-btn .btn-group{
+	width:100%;
+	height:60px;
+	margin-bottom: 30px;
+
+}
+
+#recipe-btn .btn{
+	font-weight:bold;
+	font-size: 18px;
+	width: 100%;
+	margin-right: -15px;
+}
+
+.card  .card-6 {
+    background: url('../image/papper-5.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+
+}
+
+.card-footer #btn{
+	border-style:none;
+	border-radius: 3px;
+	width:80px;
+	height:40px;
+	font-size: 18px;
+}
+
+.card-footer #btn:hover{
+	opacity:0.5;
+}
+
+.recipe-page {
+	display: table;
+    margin: 0 auto;
+	font-size: 20px;
+
+}
+
+.recipe-page .page-item .page-link{
+	background:none;
+	border-style:none;
+
+}
+
+
+/*豬肉部位*/
+
+#pig-btn .btn-group{
+	width:100%;
+	height:60px;
+	margin-bottom: 30px;
+	margin-right: -15px;
+	min-width: 20px;
+}
+
+
+#btnGroupDrop1,#btnGroupDrop2,#btnGroupDrop3,#btnGroupDrop4,#btnGroupDrop5{
+	font-weight:bold;
+	font-size: 18px;
+	width: 100%;
+}
+
+
+#pig-btn .btn-group .dropdown-menu{
+	width:100%;
+
+}
+
+#pig-btn .btn-group .dropdown-menu .dropdown-item{
+	font-size: 18px;
+
+}
+
+.pig .card-img{
+
+ 	height: 80%;
+	width: 80%;
+}
+
+.buwe-k{
+	background: #ffffff;
+	opacity:0.6;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 0px 20px 0px 20px;
+	border-style: dashed;
+	border-color: #F09FA1;
+	color: #4A2828;
+
+}
+
+#row2{
+	background:none;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+
+}
+
+.card  .card-7 {
+    background: url('../image/papper-3.png') center center no-repeat scroll;
+	-webkit-background-size: 100% 100%;
+ 	 -moz-background-size: 100% 100%;
+  	background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+}
+
+
+#row2 .card  .card-7 .card-img-top {
+	margin-top:60px;
+	height: 150px;
+	width: 100%;
+
+}
+
+#row2 .card  .card-7 .card-footer {
+	margin-bottom: 20px;
+}
+
+#row2 .card-title{
+	margin: auto
+}
+
+/*豬肉知識-豬部位*/
+
+.pig-main .a{
+	position: absolute;
+
+	width: 13%;
+	height: 53%;
+	top:25%;
+	left: 31.8%;
+}
+.pig-main .a:hover{
+	opacity:0.6;
+}
+
+.pig-main .b{
+	position: absolute;
+
+	width: 25%;
+	height: 25.5%;
+	top: 23%;
+	right: 33%;
+	left: 42%;
+}
+
+.pig-main .b:hover{
+	opacity:0.6;
+}
+
+.pig-main .c{
+	position: absolute;
+
+	width: 24%;
+	height: 32%;
+	top: 48.5%;
+	left: 42.5%;
+}
+
+.pig-main .c:hover{
+	opacity:0.6;
+}
+
+.pig-main .d{
+	position: absolute;
+
+	width: 19%;
+	height: 60%;
+	top: 24%;
+	left: 62.5%;
+}
+
+.pig-main .d:hover{
+	opacity:0.6;
+}
+
+
+
+.img-fluid:hover{
+	opacity:0.5;
+}
+
+.m1ember{
+	background: #f4eade;
+}
+#submit{
+	background-color:#A0958B;
+	border-style:outset;
+	border-radius: 5px 5px 5px 5px;
+	width:200px;
+	color: #FFFFFF;
+}
+
+#submit:hover{
+	background-color:#7A766F;
+}
+#submit2{
+	background-color:#A0958B;
+	border-style:outset;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	margin-left: 5px;
+}
+
+#submit2:hover{
+	background-color:#7A766F;
+}
+
+#submit3{
+	background-color:#FF8888;
+	border-style:outset;
+	border-radius: 5px 5px 5px 5px;
+	width:200px;
+	color: #FFFFFF;
+}
+
+#submit3:hover{
+	background-color:#E55252;
+}
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+		background-color:#ffffff;
+}
+
+#btn1:hover{
+	background-color:#D9D9D9;
+}
+#btn2:hover{
+	background-color:#D9D9D9;
+}
+#btn3:hover{
+	background-color:#D9D9D9;
+}
+#btn4:hover{
+	background-color:#D9D9D9;
+}
+#btn5:hover{
+	background-color:#D9D9D9;
+}
+#btn6:hover{
+	background-color:#D9D9D9;
+}
+
+#picture{
+	background-color:#A0958B;
+
+}
+hr{
+	border-color: #9B8B8C;
+}
+
+#byauti{
+	background: #A0958B;
+	color: #FFFFFF;
+	text-align:center;
+	border-radius: 5px 5px 5px 5px;
+	width: 100%;
+
+}
+
+#chat{
+	background:#FFFAF3;
+	border-top-style:double;
+	border-top-color: #9B8B8C;
+}
+.nothing{
+  width: 100%;
+     height: 20px;
+}
+
+.nothing2{
+ width: 100%;
+    height: 20px;
+ background:#B7A392;
+ position:relative;
+}
+
+.nothing3{
+	 padding-bottom: 20px;
+}
+
+#no1{
+ position: absolute;
+ z-index: -991;
+
+}
+
+#no2{
+ position: absolute;
+ z-index: -990;
+
+
+}
