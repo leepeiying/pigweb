@@ -60,3 +60,9 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/gh-pages/LICENSE) license.
+
+## 關於此專案詳細介紹
+
+* 影片介紹：https://drive.google.com/file/d/1jWc93nGQR4onIAA3DroCCQpcI2PY-S8p/view?usp=sharing
+* 簡報：https://docs.google.com/presentation/d/1xx2N43hWSHcz2mj3EKhFdAs6AryifONa/edit?usp=sharing&ouid=106102505517103274488&rtpof=true&sd=true
+* 海報：https://drive.google.com/file/d/1Tays-82yJOQwJkAHBplci_wloBuerAd_/view?usp=sharing
